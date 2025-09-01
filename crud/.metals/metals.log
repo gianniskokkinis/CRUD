@@ -624,3 +624,123 @@ org.eclipse.lsp4j.jsonrpc.ResponseErrorException: (Compile / compileIncremental)
 2025.09.01 21:01:11 INFO  Processing buildTarget/scalaMainClasses
 2025.09.01 21:01:11 INFO  compiling root
 2025.09.01 21:01:41 INFO  Processing buildTarget/compile
+2025.09.01 21:02:41 INFO  Processing buildTarget/compile
+2025.09.01 21:03:41 INFO  Processing buildTarget/compile
+2025.09.01 21:04:41 INFO  Processing buildTarget/compile
+2025.09.01 21:05:41 INFO  Processing buildTarget/compile
+2025.09.01 21:06:41 INFO  Processing buildTarget/compile
+2025.09.01 21:07:41 INFO  Processing buildTarget/compile
+2025.09.01 21:08:41 INFO  Processing buildTarget/compile
+2025.09.01 21:09:41 INFO  Processing buildTarget/compile
+2025.09.01 21:10:41 INFO  Processing buildTarget/compile
+Sep 01, 2025 9:11:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 112
+2025.09.01 21:11:37 INFO  Processing buildTarget/jvmRunEnvironment
+Sep 01, 2025 9:11:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 118
+Sep 01, 2025 9:11:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 119
+2025.09.01 21:11:37 INFO  compiling root
+2025.09.01 21:11:41 INFO  Processing buildTarget/compile
+Sep 01, 2025 9:12:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 129
+Sep 01, 2025 9:12:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 136
+Sep 01, 2025 9:12:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 134
+Sep 01, 2025 9:12:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 141
+Sep 01, 2025 9:12:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 137
+2025.09.01 21:12:41 INFO  Processing buildTarget/compile
+Sep 01, 2025 9:12:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 150
+Sep 01, 2025 9:12:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 152
+Sep 01, 2025 9:12:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 197
+Sep 01, 2025 9:13:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 218
+Sep 01, 2025 9:13:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 221
+Sep 01, 2025 9:13:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 222
+Sep 01, 2025 9:13:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 225
+Sep 01, 2025 9:13:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 227
+Sep 01, 2025 9:13:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 228
+Sep 01, 2025 9:13:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 230
+Sep 01, 2025 9:13:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 237
+Sep 01, 2025 9:13:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 239
+Sep 01, 2025 9:13:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 240
+Sep 01, 2025 9:13:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 244
+Sep 01, 2025 9:13:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 243
+Sep 01, 2025 9:13:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 246
+Sep 01, 2025 9:13:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 248
+Sep 01, 2025 9:13:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 250
+Sep 01, 2025 9:13:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 251
+Sep 01, 2025 9:13:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 254
+Sep 01, 2025 9:13:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 264
+Sep 01, 2025 9:13:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 269
+Sep 01, 2025 9:13:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 280
+Sep 01, 2025 9:13:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 286
+Sep 01, 2025 9:13:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 290
+2025.09.01 21:13:41 INFO  Processing buildTarget/compile
+Sep 01, 2025 9:13:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 308
+2025.09.01 21:13:53 INFO  Processing buildTarget/compile
+2025.09.01 21:13:55 INFO  compiling root
+2025.09.01 21:13:55 INFO  compiling 1 Java source to /home/user/Documents/CRUD/CRUD/crud/target/scala-2.13/classes ...
+2025.09.01 21:14:04 INFO  done compiling
+2025.09.01 21:14:04 INFO  time: compiled root in 8.96s
+2025.09.01 21:14:04 INFO  Processing buildTarget/scalaMainClasses
+2025.09.01 21:14:05 INFO  compiling root
+2025.09.01 21:14:05 INFO  Processing buildTarget/scalaTestClasses
+2025.09.01 21:14:33 INFO  Processing buildTarget/compile
+2025.09.01 21:14:33 INFO  compiling root
+2025.09.01 21:14:34 INFO  compiling 1 Java source to /home/user/Documents/CRUD/CRUD/crud/target/scala-2.13/classes ...
+Sep 01, 2025 9:14:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 367
+Sep 01, 2025 9:14:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 369
+Sep 01, 2025 9:14:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 377
+2025.09.01 21:14:45 INFO  done compiling
+2025.09.01 21:14:45 INFO  time: compiled root in 11s
+2025.09.01 21:14:45 INFO  Processing buildTarget/compile
+Sep 01, 2025 9:14:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 378
+2025.09.01 21:14:47 INFO  Processing buildTarget/scalaTestClasses
+2025.09.01 21:14:47 INFO  Processing buildTarget/scalaMainClasses
+2025.09.01 21:14:49 INFO  compiling root
+Sep 01, 2025 9:14:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 395
+Sep 01, 2025 9:14:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 400
+2025.09.01 21:15:28 INFO  Processing buildTarget/compile
+2025.09.01 21:15:28 INFO  compiling root
+2025.09.01 21:15:28 INFO  compiling 1 Java source to /home/user/Documents/CRUD/CRUD/crud/target/scala-2.13/classes ...
+2025.09.01 21:15:37 INFO  done compiling
+2025.09.01 21:15:37 INFO  time: compiled root in 8.4s
+2025.09.01 21:15:37 INFO  Processing buildTarget/scalaMainClasses
+2025.09.01 21:15:39 INFO  compiling root
+2025.09.01 21:15:39 INFO  Processing buildTarget/scalaTestClasses
+2025.09.01 21:15:41 INFO  Processing buildTarget/compile
