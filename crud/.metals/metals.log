@@ -744,3 +744,4 @@ WARNING: Unmatched cancel notification for request id 400
 2025.09.01 21:15:39 INFO  compiling root
 2025.09.01 21:15:39 INFO  Processing buildTarget/scalaTestClasses
 2025.09.01 21:15:41 INFO  Processing buildTarget/compile
+2025.09.01 21:16:41 INFO  Processing buildTarget/compile
