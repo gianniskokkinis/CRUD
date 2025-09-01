@@ -1,0 +1,626 @@
+2025.09.01 20:31:50 INFO  Started: Metals version 1.6.2 in folders '/home/user/Documents/CRUD/CRUD/crud' for client Visual Studio Code 1.103.2.
+2025.09.01 20:31:52 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:31:54 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+Sep 01, 2025 8:31:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Sep 01, 2025 8:31:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Sep 01, 2025 8:31:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Sep 01, 2025 8:31:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2025.09.01 20:31:55 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:31:57 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:31:57 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:32:02 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:32:04 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:32:04 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:32:04 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+Sep 01, 2025 8:32:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Sep 01, 2025 8:32:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+2025.09.01 20:32:05 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:32:05 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:32:57 WARN  Build server is not auto-connectable.
+2025.09.01 20:32:57 WARN  no build target for: /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java
+2025.09.01 20:33:02 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:02 WARN  no build target for: /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java
+2025.09.01 20:33:02 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:02 WARN  no build target for: /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java
+2025.09.01 20:33:03 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:04 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:04 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:15 INFO  sbt 1.11.5 found for workspace.
+2025.09.01 20:33:16 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:19 INFO  [info] welcome to sbt 1.11.5 (Oracle Corporation Java 23.0.2)
+2025.09.01 20:33:21 WARN  no build target for: /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java
+2025.09.01 20:33:21 INFO  [info] loading settings for project crud-build from plugins.sbt...
+2025.09.01 20:33:22 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:22 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:22 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:22 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:23 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:24 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:24 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:24 INFO  [info] loading project definition from /home/user/Documents/CRUD/CRUD/crud/project
+2025.09.01 20:33:26 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:27 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:27 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:27 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:27 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:29 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:29 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:29 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:30 WARN  no build target for: /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java
+2025.09.01 20:33:31 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:31 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:31 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:31 INFO  [info] loading settings for project root from build.sbt...
+2025.09.01 20:33:31 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:32 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:32 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:31 INFO  [info]   __              __
+2025.09.01 20:33:31 INFO  [info]   \ \     ____   / /____ _ __  __
+2025.09.01 20:33:31 INFO  [info]    \ \   / __ \ / // __ `// / / /
+2025.09.01 20:33:31 INFO  [info]    / /  / /_/ // // /_/ // /_/ /
+2025.09.01 20:33:31 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /
+2025.09.01 20:33:31 INFO  [info]       /_/               /____/
+2025.09.01 20:33:31 INFO  [info] 
+2025.09.01 20:33:31 INFO  [info] Version 3.0.8 running Java 23.0.2
+2025.09.01 20:33:31 INFO  [info] 
+2025.09.01 20:33:31 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:
+2025.09.01 20:33:31 INFO  [info] https://www.playframework.com/sponsors
+2025.09.01 20:33:31 INFO  [info] 
+2025.09.01 20:33:31 INFO  [info] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2025.09.01 20:33:31 INFO  [info]   Java version is 23. Play supports only Java 11, 17 and 21.
+2025.09.01 20:33:31 INFO  [info] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2025.09.01 20:33:31 INFO  [info] 
+Sep 01, 2025 8:33:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 54
+2025.09.01 20:33:32 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:32 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:33 INFO  [success] Total time: 0 s, completed Sep 1, 2025, 8:33:33 PM
+2025.09.01 20:33:33 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:33 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:34 INFO  time: ran 'sbt bspConfig' in 18s
+2025.09.01 20:33:34 INFO  Attempting to connect to the build server...
+2025.09.01 20:33:34 INFO  Running BSP server List(/usr/lib/jvm/jdk-23.0.2-oracle-x64/bin/java, -Xms100m, -Xmx100m, -classpath, /home/user/.cache/sbt/boot/sbt-launch/1.11.5/sbt-launch-1.11.5.jar, -Dsbt.script=/usr/bin/sbt, xsbt.boot.Boot, -bsp)
+2025.09.01 20:33:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/user/Documents/CRUD/CRUD/crud/.metals/bsp.trace.json or /home/user/.cache/metals/bsp.trace.json
+2025.09.01 20:33:33 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:34 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:33:34 WARN  no build target for: /home/user/Documents/CRUD/CRUD/crud/project/project/metals.sbt
+2025.09.01 20:33:34 WARN  no build target for: /home/user/Documents/CRUD/CRUD/crud/project/metals.sbt
+2025.09.01 20:33:35 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:38 INFO  BSP server: [info] server was not detected. starting an instance
+2025.09.01 20:33:47 ERROR Error downloading Dependency{module=Module(org.scala-lang, scala3-presentation-compiler_3), version='3.3.6', exclusions=[], configuration='', publication=null, transitive=true, overrides={}}
+coursierapi.error.DownloadingArtifactsError: file:/home/user/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar: not found: /home/user/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+
+	at coursierapi.error.DownloadingArtifactsError.of(DownloadingArtifactsError.java:23)
+	at coursierapi.shaded.coursier.internal.api.ApiHelper$.doFetch(ApiHelper.scala:484)
+	at coursierapi.shaded.coursier.internal.api.ApiHelper.doFetch(ApiHelper.scala)
+	at coursierapi.Fetch.fetchResult(Fetch.java:239)
+	at coursierapi.Fetch.fetch(Fetch.java:234)
+	at scala.meta.internal.metals.Embedded$.downloadDependency(Embedded.scala:414)
+	at scala.meta.internal.metals.Embedded$.downloadScala3PresentationCompiler(Embedded.scala:470)
+	at scala.meta.internal.metals.MtagsResolver$Default.$anonfun$resolve$3(MtagsResolver.scala:165)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1575)
+
+2025.09.01 20:33:47 INFO  Found coursier in path under /home/user/.metals/cs, using it to fetch dependency
+2025.09.01 20:33:48 ERROR Downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/maven-metadata.xml
+2025.09.01 20:33:48 INFO  BSP server: [info] welcome to sbt 1.11.5 (Oracle Corporation Java 23.0.2)
+2025.09.01 20:33:49 ERROR Downloaded https://repo1.maven.org/maven2/com/google/code/gson/gson/maven-metadata.xml
+2025.09.01 20:33:49 ERROR Downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.pom
+2025.09.01 20:33:49 ERROR Downloaded https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.pom
+2025.09.01 20:33:49 ERROR Downloading https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.10.1/gson-parent-2.10.1.pom
+2025.09.01 20:33:49 ERROR Downloaded https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.10.1/gson-parent-2.10.1.pom
+2025.09.01 20:33:49 ERROR Downloading https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom
+2025.09.01 20:33:49 ERROR Downloading https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.pom
+2025.09.01 20:33:49 ERROR Downloaded https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom
+2025.09.01 20:33:49 ERROR Downloaded https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.pom
+2025.09.01 20:33:49 ERROR Downloading https://repo1.maven.org/maven2/com/google/errorprone/error_prone_parent/2.3.4/error_prone_parent-2.3.4.pom
+2025.09.01 20:33:49 ERROR Downloaded https://repo1.maven.org/maven2/com/google/errorprone/error_prone_parent/2.3.4/error_prone_parent-2.3.4.pom
+2025.09.01 20:33:49 ERROR Downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+2025.09.01 20:33:49 ERROR Downloading https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+2025.09.01 20:33:49 ERROR Downloading https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar
+2025.09.01 20:33:49 ERROR Downloaded https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar
+2025.09.01 20:33:49 ERROR Downloaded https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+2025.09.01 20:33:49 ERROR Downloaded https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+2025.09.01 20:33:51 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:51 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:55 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:55 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:33:55 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:56 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:56 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:58 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:58 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:58 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:58 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:58 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:33:58 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+Sep 01, 2025 8:33:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 81
+2025.09.01 20:33:59 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:00 INFO  BSP server: [info] loading settings for project crud-build-build from metals.sbt...
+2025.09.01 20:34:03 INFO  BSP server: [info] loading project definition from /home/user/Documents/CRUD/CRUD/crud/project/project
+2025.09.01 20:34:04 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:04 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:04 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:05 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:05 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:06 WARN  no build target for: /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java
+2025.09.01 20:34:07 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:07 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:07 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+Sep 01, 2025 8:34:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 97
+2025.09.01 20:34:09 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:09 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:09 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:09 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:10 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+Sep 01, 2025 8:34:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 104
+2025.09.01 20:34:10 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+Sep 01, 2025 8:34:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 105
+2025.09.01 20:34:10 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:10 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:10 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:10 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:11 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:11 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:13 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:13 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:13 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:13 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+Sep 01, 2025 8:34:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 114
+2025.09.01 20:34:13 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:13 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+Sep 01, 2025 8:34:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 116
+2025.09.01 20:34:13 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:13 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+Sep 01, 2025 8:34:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 122
+2025.09.01 20:34:13 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:15 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:16 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:17 INFO  BSP server: [info] loading settings for project crud-build from metals.sbt, plugins.sbt...
+2025.09.01 20:34:16 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:17 INFO  BSP server: [info] loading project definition from /home/user/Documents/CRUD/CRUD/crud/project
+2025.09.01 20:34:20 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:20 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:20 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+Sep 01, 2025 8:34:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 132
+2025.09.01 20:34:20 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:20 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+Sep 01, 2025 8:34:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 133
+2025.09.01 20:34:21 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:21 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+Sep 01, 2025 8:34:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 136
+2025.09.01 20:34:21 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:21 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:23 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:23 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:23 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:24 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:24 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:24 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:25 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:25 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:25 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:25 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:25 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:25 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:27 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:27 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:27 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:28 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:28 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:28 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:28 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+Sep 01, 2025 8:34:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 166
+Sep 01, 2025 8:34:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 167
+2025.09.01 20:34:28 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:28 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:28 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:28 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:29 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:29 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:29 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:29 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:31 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:31 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:31 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:31 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:31 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+Sep 01, 2025 8:34:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 180
+2025.09.01 20:34:31 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+Sep 01, 2025 8:34:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 182
+2025.09.01 20:34:31 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+Sep 01, 2025 8:34:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 183
+2025.09.01 20:34:31 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:31 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:32 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:32 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+Sep 01, 2025 8:34:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 187
+2025.09.01 20:34:32 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:32 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:32 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:32 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:34 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:34 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:34 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:34 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:34 ERROR Timeout waiting for 'build/initialize' response
+2025.09.01 20:34:34 WARN  Retrying connection to the build server sbt
+2025.09.01 20:34:34 INFO  Running BSP server List(/usr/lib/jvm/jdk-23.0.2-oracle-x64/bin/java, -Xms100m, -Xmx100m, -classpath, /home/user/.cache/sbt/boot/sbt-launch/1.11.5/sbt-launch-1.11.5.jar, -Dsbt.script=/usr/bin/sbt, xsbt.boot.Boot, -bsp)
+2025.09.01 20:34:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/user/Documents/CRUD/CRUD/crud/.metals/bsp.trace.json or /home/user/.cache/metals/bsp.trace.json
+2025.09.01 20:34:34 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:35 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:35 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:37 INFO  BSP server: [info] server was not detected. starting an instance
+2025.09.01 20:34:43 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:43 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:44 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:44 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:46 INFO  BSP server: [info] welcome to sbt 1.11.5 (Oracle Corporation Java 23.0.2)
+2025.09.01 20:34:47 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:47 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:47 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:47 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:49 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:49 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:49 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:49 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:49 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:51 INFO  BSP server: [info] loading settings for project crud-build-build from metals.sbt...
+2025.09.01 20:34:51 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:51 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:51 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:53 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:53 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:53 INFO  BSP server: [info] loading project definition from /home/user/Documents/CRUD/CRUD/crud/project/project
+2025.09.01 20:34:53 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:54 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:54 WARN  no build target for: /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java
+2025.09.01 20:34:54 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:55 WARN  no build target for: /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java
+2025.09.01 20:34:55 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:55 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:55 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+Sep 01, 2025 8:34:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 246
+2025.09.01 20:34:57 INFO  BSP server: [info] loading settings for project crud-build from metals.sbt, plugins.sbt...
+2025.09.01 20:34:57 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:57 INFO  BSP server: [info] loading project definition from /home/user/Documents/CRUD/CRUD/crud/project
+2025.09.01 20:34:58 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:34:58 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java. Using fallback presentation compiler.
+2025.09.01 20:35:04 INFO  BSP server: [info] loading settings for project root from build.sbt...
+2025.09.01 20:35:04 INFO  BSP server: [info]   __              __
+2025.09.01 20:35:04 INFO  BSP server: [info]   \ \     ____   / /____ _ __  __
+2025.09.01 20:35:04 INFO  BSP server: [info]    \ \   / __ \ / // __ `// / / /
+2025.09.01 20:35:04 INFO  BSP server: [info]    / /  / /_/ // // /_/ // /_/ /
+2025.09.01 20:35:04 INFO  BSP server: [info]   /_/  / .___//_/ \__,_/ \__, /
+2025.09.01 20:35:04 INFO  BSP server: [info]       /_/               /____/
+2025.09.01 20:35:04 INFO  BSP server: [info] 
+2025.09.01 20:35:04 INFO  BSP server: [info] Version 3.0.8 running Java 23.0.2
+2025.09.01 20:35:04 INFO  BSP server: [info] 
+2025.09.01 20:35:04 INFO  BSP server: [info] Play is run entirely by the community. Please consider contributing and/or donating:
+2025.09.01 20:35:04 INFO  BSP server: [info] https://www.playframework.com/sponsors
+2025.09.01 20:35:04 INFO  BSP server: [info] 
+2025.09.01 20:35:04 INFO  BSP server: [info] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2025.09.01 20:35:04 INFO  BSP server: [info]   Java version is 23. Play supports only Java 11, 17 and 21.
+2025.09.01 20:35:04 INFO  BSP server: [info] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2025.09.01 20:35:04 INFO  BSP server: [info] 
+2025.09.01 20:35:07 INFO  BSP server: [info] sbt server started at local:///home/user/.sbt/1.0/server/c5bc5a95ab345078e54a/sock
+2025.09.01 20:35:07 INFO  Processing workspace/reload
+2025.09.01 20:35:07 INFO  compiling crud-build-build
+2025.09.01 20:35:09 INFO  compiling crud-build
+2025.09.01 20:35:10 INFO  time: Connected to build server in 1m36s
+2025.09.01 20:35:10 INFO  Connected to Build server: sbt v1.11.5
+2025.09.01 20:35:10 INFO  Processing workspace/buildTargets
+2025.09.01 20:35:25 INFO  Processing buildTarget/scalacOptions
+2025.09.01 20:35:25 INFO  Processing buildTarget/sources
+2025.09.01 20:35:25 INFO  Processing buildTarget/dependencySources
+2025.09.01 20:35:32 WARN  no build target for: /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java
+2025.09.01 20:35:36 INFO  Shutting down server
+2025.09.01 20:35:36 INFO  shutting down Metals
+2025.09.01 20:35:36 INFO  Shut down connection with build server.
+2025.09.01 20:35:36 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1575)
+
+2025.09.01 20:35:36 INFO  Exiting server
+2025.09.01 20:47:26 INFO  Started: Metals version 1.6.2 in folders '/home/user/Documents/CRUD/CRUD/crud' for client Visual Studio Code 1.103.2.
+2025.09.01 20:47:26 INFO  time: initialize in 0.12s
+2025.09.01 20:47:41 INFO  Attempting to connect to the build server...
+2025.09.01 20:47:41 INFO  Running BSP server List(/usr/lib/jvm/jdk-23.0.2-oracle-x64/bin/java, -Xms100m, -Xmx100m, -classpath, /home/user/.cache/sbt/boot/sbt-launch/1.11.5/sbt-launch-1.11.5.jar, -Dsbt.script=/usr/bin/sbt, xsbt.boot.Boot, -bsp)
+2025.09.01 20:47:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/user/Documents/CRUD/CRUD/crud/.metals/bsp.trace.json or /home/user/.cache/metals/bsp.trace.json
+2025.09.01 20:47:43 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+Sep 01, 2025 8:47:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2025.09.01 20:47:53 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:47:53 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+Sep 01, 2025 8:47:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Sep 01, 2025 8:47:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Sep 01, 2025 8:47:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+2025.09.01 20:47:53 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:47:54 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:47:56 INFO  time: Connected to build server in 15s
+2025.09.01 20:47:56 INFO  Connected to Build server: sbt v1.11.5
+2025.09.01 20:47:58 INFO  Processing workspace/buildTargets
+2025.09.01 20:48:07 INFO  Processing buildTarget/scalacOptions
+2025.09.01 20:48:08 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:48:09 INFO  Processing buildTarget/sources
+2025.09.01 20:48:08 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:48:08 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+Sep 01, 2025 8:48:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+2025.09.01 20:48:08 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+Sep 01, 2025 8:48:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+2025.09.01 20:48:10 INFO  Processing buildTarget/dependencySources
+2025.09.01 20:48:21 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:48:21 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:48:34 INFO  time: Imported build in 37s
+2025.09.01 20:48:42 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.09.01 20:48:43 INFO  Shutting down server
+2025.09.01 20:48:43 INFO  shutting down Metals
+2025.09.01 20:48:43 INFO  Shut down connection with build server.
+2025.09.01 20:48:43 INFO  Exiting server
+2025.09.01 20:52:59 INFO  Started: Metals version 1.6.2 in folders '/home/user/Documents/CRUD/CRUD/crud' for client Visual Studio Code 1.103.2.
+2025.09.01 20:53:00 INFO  time: initialize in 0.17s
+2025.09.01 20:53:16 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+Sep 01, 2025 8:53:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2025.09.01 20:53:22 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:53:22 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:53:22 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:53:23 INFO  Attempting to connect to the build server...
+Sep 01, 2025 8:53:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Sep 01, 2025 8:53:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Sep 01, 2025 8:53:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Sep 01, 2025 8:53:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2025.09.01 20:53:24 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:53:24 INFO  Running BSP server List(/usr/lib/jvm/jdk-23.0.2-oracle-x64/bin/java, -Xms100m, -Xmx100m, -classpath, /home/user/.cache/sbt/boot/sbt-launch/1.11.5/sbt-launch-1.11.5.jar, -Dsbt.script=/usr/bin/sbt, xsbt.boot.Boot, -bsp)
+Sep 01, 2025 8:53:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+2025.09.01 20:53:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/user/Documents/CRUD/CRUD/crud/.metals/bsp.trace.json or /home/user/.cache/metals/bsp.trace.json
+2025.09.01 20:53:24 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:53:24 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:53:26 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+Sep 01, 2025 8:53:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+2025.09.01 20:53:26 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+Sep 01, 2025 8:53:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+2025.09.01 20:53:26 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:53:26 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:53:26 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:53:28 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:53:28 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:53:30 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:53:30 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+Sep 01, 2025 8:53:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+2025.09.01 20:53:30 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:53:30 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+Sep 01, 2025 8:53:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 43
+Sep 01, 2025 8:53:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46
+Sep 01, 2025 8:53:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 44
+2025.09.01 20:53:31 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:53:31 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:53:31 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+Sep 01, 2025 8:53:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49
+2025.09.01 20:53:31 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:53:31 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+Sep 01, 2025 8:53:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+2025.09.01 20:53:31 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:53:31 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:53:32 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+Sep 01, 2025 8:53:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 54
+2025.09.01 20:53:32 WARN  no build target for: /home/user/Documents/CRUD/CRUD/crud/build.sbt
+2025.09.01 20:53:32 WARN  no build target for: /home/user/Documents/CRUD/CRUD/crud/build.sbt
+2025.09.01 20:53:32 WARN  no build target for: /home/user/Documents/CRUD/CRUD/crud/build.sbt
+2025.09.01 20:53:32 INFO  no build target found for /home/user/Documents/CRUD/CRUD/crud/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.01 20:53:41 INFO  time: Connected to build server in 17s
+2025.09.01 20:53:41 INFO  Connected to Build server: sbt v1.11.5
+2025.09.01 20:53:43 INFO  Processing workspace/buildTargets
+2025.09.01 20:53:50 INFO  Processing buildTarget/scalacOptions
+2025.09.01 20:53:52 INFO  Processing buildTarget/sources
+2025.09.01 20:53:52 INFO  Processing buildTarget/dependencySources
+2025.09.01 20:54:03 INFO  time: Imported build in 21s
+2025.09.01 20:54:44 INFO  Processing buildTarget/compile
+2025.09.01 20:54:46 INFO  Created report: Optional[file:///home/user/Documents/CRUD/CRUD/crud/jar:file:/usr/lib/jvm/jdk-23.0.2-oracle-x64/lib/src.zip!/jdk.javadoc/jdk/javadoc/internal/doclets/formats/html/HtmlConfiguration.java]
+2025.09.01 20:54:46 INFO  Java indexer failed with and exception. (full report at: "/home/user/Documents/CRUD/CRUD/crud/.metals/.reports/metals-full/2025-09-01/r_failed-idex-java_20-54-46-884.md")
+2025.09.01 20:55:43 INFO  Processing buildTarget/compile
+2025.09.01 20:55:55 INFO  time: indexed workspace in 1m52s
+2025.09.01 20:55:56 INFO  Processing buildTarget/scalaTestClasses
+2025.09.01 20:55:59 INFO  compiling root
+2025.09.01 20:55:59 INFO  compiling 6 Scala sources and 3 Java sources to /home/user/Documents/CRUD/CRUD/crud/target/scala-2.13/classes ...
+2025.09.01 20:56:21 INFO  done compiling
+2025.09.01 20:56:21 INFO  time: compiled root in 22s
+2025.09.01 20:56:21 INFO  compiling root-test
+2025.09.01 20:56:23 INFO  compiling 1 Java source to /home/user/Documents/CRUD/CRUD/crud/target/scala-2.13/test-classes ...
+2025.09.01 20:56:27 INFO  done compiling
+2025.09.01 20:56:27 INFO  time: compiled root-test in 5.47s
+2025.09.01 20:56:27 INFO  Processing buildTarget/scalaMainClasses
+2025.09.01 20:56:27 INFO  compiling root
+2025.09.01 20:56:27 INFO  compiling root-test
+2025.09.01 20:56:28 INFO  Processing buildTarget/compile
+2025.09.01 20:56:28 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:56:28 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:56:28 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:56:28 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:56:28 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:56:28 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:56:29 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:56:29 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:56:29 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:56:29 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:56:29 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:56:29 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:56:29 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:56:29 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:56:29 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:56:29 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:56:29 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:56:29 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:56:29 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:56:29 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:56:31 INFO  Processing buildTarget/compile
+2025.09.01 20:56:33 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:56:37 INFO  Processing workspace/reload
+2025.09.01 20:56:37 INFO  compiling crud-build-build
+2025.09.01 20:56:37 INFO  compiling crud-build
+2025.09.01 20:56:41 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:56:41 INFO  Processing buildTarget/compile
+2025.09.01 20:56:41 INFO  Processing workspace/buildTargets
+2025.09.01 20:56:51 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:56:51 INFO  Processing buildTarget/scalacOptions
+2025.09.01 20:56:51 INFO  Processing buildTarget/sources
+2025.09.01 20:56:51 INFO  Processing buildTarget/dependencySources
+2025.09.01 20:57:12 INFO  time: Imported build in 31s
+2025.09.01 20:57:45 INFO  Processing buildTarget/compile
+2025.09.01 20:58:00 INFO  time: indexed workspace in 48s
+2025.09.01 20:58:00 INFO  Correctly reloaded workspace
+2025.09.01 20:58:00 INFO  Processing buildTarget/scalaMainClasses
+2025.09.01 20:58:00 INFO  Skipping reload with status 'Installed'
+2025.09.01 20:58:00 INFO  compiling root
+2025.09.01 20:58:03 INFO  compiling root-test
+2025.09.01 20:58:03 INFO  compiling 1 Java source to /home/user/Documents/CRUD/CRUD/crud/target/scala-2.13/test-classes ...
+2025.09.01 20:58:11 INFO  done compiling
+2025.09.01 20:58:16 INFO  Processing buildTarget/scalaTestClasses
+2025.09.01 20:58:16 INFO  compiling root
+2025.09.01 20:58:16 INFO  compiling root-test
+2025.09.01 20:58:38 INFO  Processing buildTarget/compile
+2025.09.01 20:58:38 INFO  compiling root
+2025.09.01 20:58:38 INFO  compiling 1 Java source to /home/user/Documents/CRUD/CRUD/crud/target/scala-2.13/classes ...
+2025.09.01 20:58:46 ERROR /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java:7:3:  error: cannot find symbol
+2025.09.01 20:58:46 ERROR @Id
+	 ^  symbol:   class Id
+  location: class Product
+1 error
+2025.09.01 20:58:46 ERROR ^
+2025.09.01 20:58:46 WARN  javac exited with exit code 1
+2025.09.01 20:58:46 INFO  time: compiled root in 7.82s
+2025.09.01 20:58:46 ERROR (Compile / compileIncremental) javac returned non-zero exit code
+2025.09.01 20:58:46 INFO  Processing buildTarget/compile
+2025.09.01 20:58:46 INFO  Cancelling compilation on sbt server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: (Compile / compileIncremental) javac returned non-zero exit code
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1575)
+
+2025.09.01 20:58:46 INFO  Processing buildTarget/scalaMainClasses
+2025.09.01 20:58:46 INFO  compiling root
+2025.09.01 20:58:46 INFO  compiling 1 Java source to /home/user/Documents/CRUD/CRUD/crud/target/scala-2.13/classes ...
+2025.09.01 20:58:51 ERROR /home/user/Documents/CRUD/CRUD/crud/app/models/Product.java:7:3:  error: cannot find symbol
+2025.09.01 20:58:51 ERROR @Id
+	 ^  symbol:   class Id
+  location: class Product
+1 error
+2025.09.01 20:58:51 ERROR ^
+2025.09.01 20:58:51 WARN  javac exited with exit code 1
+2025.09.01 20:58:51 INFO  time: compiled root in 3.89s
+2025.09.01 20:58:51 ERROR (Compile / compileIncremental) javac returned non-zero exit code
+2025.09.01 20:58:51 INFO  Scala main classes not supported by server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: (Compile / compileIncremental) javac returned non-zero exit code
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1575)
+
+2025.09.01 20:58:51 INFO  Processing buildTarget/scalaTestClasses
+2025.09.01 20:59:39 INFO  time: code lens generation in 7.12s
+2025.09.01 20:59:39 INFO  Processing buildTarget/jvmRunEnvironment
+2025.09.01 20:59:41 INFO  Processing buildTarget/compile
+2025.09.01 21:00:11 INFO  Processing buildTarget/compile
+2025.09.01 21:00:13 INFO  compiling root
+2025.09.01 21:00:13 INFO  compiling 1 Java source to /home/user/Documents/CRUD/CRUD/crud/target/scala-2.13/classes ...
+2025.09.01 21:00:18 INFO  done compiling
+2025.09.01 21:00:18 INFO  time: compiled root in 5.42s
+2025.09.01 21:00:18 INFO  compiling root-test
+2025.09.01 21:00:19 INFO  Processing buildTarget/scalaMainClasses
+2025.09.01 21:00:19 INFO  compiling root
+2025.09.01 21:00:19 INFO  compiling root-test
+2025.09.01 21:00:19 INFO  Processing buildTarget/scalaTestClasses
+2025.09.01 21:00:19 INFO  compiling root
+2025.09.01 21:00:19 INFO  compiling root-test
+2025.09.01 21:00:22 INFO  Processing buildTarget/compile
+2025.09.01 21:00:22 INFO  compiling root
+2025.09.01 21:00:22 INFO  compiling 1 Java source to /home/user/Documents/CRUD/CRUD/crud/target/scala-2.13/classes ...
+2025.09.01 21:00:27 INFO  done compiling
+2025.09.01 21:00:27 INFO  time: compiled root in 4.77s
+2025.09.01 21:00:27 INFO  Processing buildTarget/scalaTestClasses
+2025.09.01 21:00:27 INFO  Processing buildTarget/scalaMainClasses
+2025.09.01 21:00:27 INFO  compiling root
+2025.09.01 21:00:41 INFO  Processing buildTarget/compile
+2025.09.01 21:01:03 INFO  Processing buildTarget/compile
+2025.09.01 21:01:03 INFO  compiling root
+2025.09.01 21:01:03 INFO  compiling 1 Java source to /home/user/Documents/CRUD/CRUD/crud/target/scala-2.13/classes ...
+2025.09.01 21:01:10 INFO  done compiling
+2025.09.01 21:01:10 INFO  time: compiled root in 6.56s
+2025.09.01 21:01:10 INFO  Processing buildTarget/scalaTestClasses
+2025.09.01 21:01:10 INFO  Processing buildTarget/scalaMainClasses
+2025.09.01 21:01:10 INFO  compiling root
+2025.09.01 21:01:10 INFO  Processing buildTarget/compile
+2025.09.01 21:01:11 INFO  compiling root
+2025.09.01 21:01:11 INFO  Processing buildTarget/scalaTestClasses
+2025.09.01 21:01:11 INFO  Processing buildTarget/scalaMainClasses
+2025.09.01 21:01:11 INFO  compiling root
+2025.09.01 21:01:41 INFO  Processing buildTarget/compile

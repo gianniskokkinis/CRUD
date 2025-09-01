@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "georgewfraser.vscode-javac",
+        "oracle.oracle-java",
+        "redhat.java",
+        "vmware.vscode-spring-boot",
+        "vscjava.vscode-java-pack"
+    ]
+}
