@@ -1,2 +1,2 @@
-# GRUD
+# CRUD
 Play Framework example 
