@@ -4,6 +4,7 @@ import java.sql.Date;
 
 import jakarta.persistence.*;
 
+/*This is entity of product which store to database*/
 
 @Entity
 @Table(name="products")

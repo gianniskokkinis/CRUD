@@ -16,6 +16,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
+/* This is the provider for EntityManagers*/
 
 @Singleton
 public class EntityManagerProvider implements Provider<EntityManager> {
@@ -26,16 +27,20 @@ public class EntityManagerProvider implements Provider<EntityManager> {
     public EntityManagerProvider(Config config) {
 
         Properties props = new Properties();
+
+        //take configurations from application.conf file
         props.put("jakarta.persistence.jdbc.driver", config.getString("db.default.driver"));
         props.put("jakarta.persistence.jdbc.url", config.getString("db.default.url"));
         props.put("jakarta.persistence.jdbc.user", config.getString("db.default.username"));
         props.put("jakarta.persistence.jdbc.password", config.getString("db.default.password"));
+
+        //manage the schema to database
         props.put("hibernate.hbm2ddl.auto", config.getString("jpa.hibernate.hbm2ddl"));
         props.put("hibernate.dialect", config.getString("jpa.hibernate.dialect"));
 
 
-        org.hibernate.cfg.Configuration hibernateCfg = new org.hibernate.cfg.Configuration();
-        hibernateCfg.addAnnotatedClass(models.Product.class);
+        org.hibernate.cfg.Configuration hibernateCfg = new org.hibernate.cfg.Configuration(); //Ηibrenate Configuration
+        hibernateCfg.addAnnotatedClass(models.Product.class); //for @Entity class
         hibernateCfg.setProperties(props);
 
 
