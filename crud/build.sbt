@@ -23,18 +23,24 @@ libraryDependencies ++= Seq(
 
 	"org.apache.commons" % "commons-dbcp2" % "2.9.0",
 
+	"com.typesafe" % "config" % "1.4.2",
+
 
 	// Testing
 	"org.junit.jupiter" % "junit-jupiter-api" % "5.10.0" % Test,
 	"org.junit.jupiter" % "junit-jupiter-engine" % "5.10.0" % Test,
-	"org.junit.jupiter" % "junit-jupiter-params" % "5.10.0" % Test
+	"org.junit.jupiter" % "junit-jupiter-params" % "5.10.0" % Test,
+	"org.junit.platform" % "junit-platform-launcher" % "1.10.0" % Test,
+	"net.aichler" % "jupiter-interface" % "0.11.1" % Test
 
 )
 
 
-// Για να τρέχει το JUnit 5 με sbt
-testFrameworks += new TestFramework("org.junit.platform.sbt.JUnitPlatformFramework")
+// Test configuration
+Test / testOptions += Tests.Argument(TestFrameworks.JUnit, "-v", "-s")
 
+// Verbose test output
+Test / logBuffered := false
 
 
 
