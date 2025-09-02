@@ -21,11 +21,15 @@ libraryDependencies ++= Seq(
 	"com.mysql" % "mysql-connector-j" % "8.3.0",
 
 	// Testing
-	"org.scalatestplus.play" %% "scalatestplus-play" % "5.1.0" % Test,
 	"org.junit.jupiter" % "junit-jupiter-api" % "5.10.0" % Test,
-	"org.junit.jupiter" % "junit-jupiter-engine" % "5.10.0" % Test
+	"org.junit.jupiter" % "junit-jupiter-engine" % "5.10.0" % Test,
+	"org.junit.jupiter" % "junit-jupiter-params" % "5.10.0" % Test
 
 )
+
+
+// Για να τρέχει το JUnit 5 με sbt
+testFrameworks += new TestFramework("org.junit.platform.sbt.JUnitPlatformFramework")
 
 
 
