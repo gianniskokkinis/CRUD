@@ -18,8 +18,12 @@ libraryDependencies ++= Seq(
 	"org.hibernate.orm" % "hibernate-core" % "6.4.4.Final",
 
 	// JDBC Driver
-	"com.mysql" % "mysql-connector-j" % "8.3.0"
+	"com.mysql" % "mysql-connector-j" % "8.3.0",
 
+	// Testing
+	"org.scalatestplus.play" %% "scalatestplus-play" % "5.1.0" % Test,
+	"org.junit.jupiter" % "junit-jupiter-api" % "5.10.0" % Test,
+	"org.junit.jupiter" % "junit-jupiter-engine" % "5.10.0" % Test
 
 )
 
