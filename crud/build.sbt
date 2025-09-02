@@ -10,6 +10,7 @@ scalaVersion := "2.13.16"
 libraryDependencies ++= Seq(
 	guice,
 
+	javaJdbc,
 
 	// Jakarta Persistence API
 	"jakarta.persistence" % "jakarta.persistence-api" % "3.1.0",
@@ -19,6 +20,9 @@ libraryDependencies ++= Seq(
 
 	// JDBC Driver
 	"com.mysql" % "mysql-connector-j" % "8.3.0",
+
+	"org.apache.commons" % "commons-dbcp2" % "2.9.0",
+
 
 	// Testing
 	"org.junit.jupiter" % "junit-jupiter-api" % "5.10.0" % Test,

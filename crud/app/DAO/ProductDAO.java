@@ -11,6 +11,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class ProductDAO {
 
     private final DataSource dataSource;
@@ -23,13 +24,14 @@ public class ProductDAO {
     public void save(Product product){
         try{
             Connection conn = dataSource.getConnection();
-            String sql = "INSERT INTO products (name,description, price, date_add, date_upd VALUES (?,?,?.?,?)";
+            String sql = "INSERT INTO products (name, description, price, date_add, date_upd) VALUES (?, ?, ?, ?, ?)";
             try(PreparedStatement stmt = conn.prepareStatement(sql)){
                 stmt.setString(1,product.getName());
                 stmt.setString(2,product.getDescription());
                 stmt.setString(3,product.getPrice()+"");
                 stmt.setString(4,product.getAddDate()+"");
                 stmt.setString(5,product.getUpdateDate()+"");
+                stmt.executeUpdate();
             }
         }catch (SQLException e){
             e.printStackTrace();
@@ -109,12 +111,12 @@ public class ProductDAO {
     }
 
 
-    public void delete(Product product){
+    public void delete(int id){
         try {
             Connection conn = dataSource.getConnection();
             String sql = "DELETE FROM products WHERE id=?";
             try (PreparedStatement stmt = conn.prepareStatement(sql)) {
-                stmt.setInt(1, product.getId());
+                stmt.setInt(1, id);
                 stmt.executeUpdate();
             }
         }catch (SQLException e){
