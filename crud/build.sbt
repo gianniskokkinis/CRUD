@@ -14,12 +14,12 @@ libraryDependencies ++= Seq(
 	// Jakarta Persistence API
 	"jakarta.persistence" % "jakarta.persistence-api" % "3.1.0",
 
-	// Hibernate ORM 
+	// Hibernate ORM
 	"org.hibernate.orm" % "hibernate-core" % "6.4.4.Final",
 
 	// JDBC Driver
 	"com.mysql" % "mysql-connector-j" % "8.3.0"
-		
+
 
 )
 
