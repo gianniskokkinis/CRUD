@@ -25,6 +25,8 @@ libraryDependencies ++= Seq(
 
 	"com.typesafe" % "config" % "1.4.2",
 
+	"com.h2database" % "h2" % "2.2.224" % Test,
+
 
 	// Testing
 	"org.junit.jupiter" % "junit-jupiter-api" % "5.10.0" % Test,
@@ -35,13 +37,6 @@ libraryDependencies ++= Seq(
 
 )
 
-
-// Test configuration
-Test / testOptions += Tests.Argument(TestFrameworks.JUnit, "-v", "-s")
-
-// Verbose test output
-Test / logBuffered := false
-
-
+libraryDependencies += "com.github.sbt" % "junit-interface" % "0.13.3" % Test
 
 
