@@ -1,7 +1,6 @@
 package controllers;
 
 import DAO.ProductDAO;
-import Services.ProductService;
 import com.fasterxml.jackson.databind.JsonNode;
 import models.Product;
 import play.mvc.Controller;

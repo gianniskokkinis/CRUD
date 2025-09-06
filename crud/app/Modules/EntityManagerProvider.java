@@ -40,7 +40,10 @@ public class EntityManagerProvider implements Provider<EntityManager> {
 
 
         org.hibernate.cfg.Configuration hibernateCfg = new org.hibernate.cfg.Configuration(); //Ηibrenate Configuration
-        hibernateCfg.addAnnotatedClass(models.Product.class); //for @Entity class
+        //connect @Entity class
+        hibernateCfg.addAnnotatedClass(models.Product.class);
+        hibernateCfg.addAnnotatedClass(models.Category.class);
+        hibernateCfg.addAnnotatedClass(models.Detail.class);
         hibernateCfg.setProperties(props);
 
 

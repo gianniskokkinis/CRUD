@@ -1,0 +1,44 @@
+package models;
+
+import jakarta.persistence.*;
+
+@Entity
+@Table(name="details")
+public class Detail {
+
+    @Id
+    @Column(name="id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+
+    @Column(name="detail_name")
+    private String detailName;
+    
+    @ManyToOne
+    @JoinColumn(name = "product_id")
+    private Product product;
+
+    public int getId() {
+        return id;
+    }
+
+    public String getDetailName() {
+        return detailName;
+    }
+
+    public Product getProduct() {
+        return product;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setDetailName(String detailName) {
+        this.detailName = detailName;
+    }
+
+    public void setProduct(Product product) {
+        this.product = product;
+    }
+}

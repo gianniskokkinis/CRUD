@@ -1,6 +1,7 @@
 package models;
 
 import java.sql.Date;
+import java.util.List;
 
 import jakarta.persistence.*;
 
@@ -11,6 +12,7 @@ import jakarta.persistence.*;
 public class Product {
 	
 	@Id
+	@Column(name="id")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	
@@ -29,6 +31,13 @@ public class Product {
 	@Column(name="date_upd")
 	private Date updateDate;
 
+	@ManyToOne
+	@JoinColumn(name = "category_id")
+	private Category category;
+
+	@OneToMany(cascade = CascadeType.ALL)
+	@JoinColumn(name = "product_id")
+	private List<Detail> detailList;
 
 	public int getId() {
 		return id;
@@ -58,6 +67,14 @@ public class Product {
 		this.id = id;
 	}
 
+	public Category getCategory() {
+		return category;
+	}
+
+	public List<Detail> getDetailList() {
+		return detailList;
+	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -76,6 +93,14 @@ public class Product {
 
 	public void setUpdateDate(Date updateDate) {
 		this.updateDate = updateDate;
+	}
+
+	public void setCategory(Category category) {
+		this.category = category;
+	}
+
+	public void setDetailList(List<Detail> detailList) {
+		this.detailList = detailList;
 	}
 }
 

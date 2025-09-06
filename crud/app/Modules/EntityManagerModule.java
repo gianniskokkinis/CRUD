@@ -41,7 +41,11 @@ public class EntityManagerModule extends AbstractModule {
         settings.put("hibernate.dialect", "org.hibernate.dialect.MySQL8Dialect"); //mySQL style
 
         org.hibernate.cfg.Configuration cfg = new org.hibernate.cfg.Configuration(); //Ηibrenate Configuration
-        cfg.addAnnotatedClass(models.Product.class); //for @Entity class
+        //connect @Entity classes
+        cfg.addAnnotatedClass(models.Product.class);
+        cfg.addAnnotatedClass(models.Category.class);
+        cfg.addAnnotatedClass(models.Detail.class);
+
         cfg.setProperties(settings);
 
         EntityManagerFactory emf = cfg.buildSessionFactory(); //create the EntityFactory
