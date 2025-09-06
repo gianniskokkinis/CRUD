@@ -9,8 +9,8 @@ GET     /                           controllers.HomeController.index()
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
 
 #ProductController POST - JSON , PUT - JSON
-POST    /products   controllers.ProductController.createProduct(request: Request)
-GET     /products   controllers.ProductController.getAllProducts(request: Request)
-PUT     /products   controllers.ProductController.updateProduct(request: Request)
-DELETE  /products/:id   controllers.ProductController.deleteProduct(id: Integer)
+POST    /products/create   controllers.ProductController.createProduct(request: Request)
+POST    /products/get   controllers.ProductController.getAllProducts()
+POST    /products/update   controllers.ProductController.updateProduct(request: Request)
+POST    /products/delete   controllers.ProductController.deleteProduct(request: Request)
 
