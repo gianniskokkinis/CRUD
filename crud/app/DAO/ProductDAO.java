@@ -12,6 +12,7 @@ import org.hibernate.dialect.Database;
 import javax.inject.Inject;
 import javax.sql.DataSource;
 import java.sql.*;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -53,8 +54,32 @@ public class ProductDAO {
 
     /*Update the product*/
     public void update(Product product){
+
+        //test
+        System.out.println("Name: "+ product.getName());
+        System.out.println("Category: "+ product.getCategory().getCatName());
+        //end test
+
+        Product productToUpdate = null;
+        List<Product> checkProducts = this.findAll();
+        for(Product ch: checkProducts){
+            if((ch.getName().equals(product.getName())) && (ch.getCategory().getCatName().equals(product.getCategory().getCatName()))){
+                productToUpdate = ch;
+                //test
+                System.out.println("FOUND");
+                //end test
+                break;
+            }
+        }
+
         em.getTransaction().begin(); //begin transaction
-        em.merge(product); //update the entity to database
+        productToUpdate.setName(product.getName());
+        productToUpdate.setDescription(product.getDescription());
+        productToUpdate.setPrice(product.getPrice());
+        productToUpdate.setAddDate(product.getAddDate());
+        productToUpdate.setUpdateDate(Date.valueOf(LocalDate.now()));
+        productToUpdate.setCategory(product.getCategory());
+        productToUpdate.setDetailList(product.getDetailList());
         em.getTransaction().commit(); //end transaction
     }
 

@@ -83,7 +83,7 @@ public class ProductController extends Controller {
 
     }
 
-    //GET
+    //POST
     public Result getAllProducts(){
         try {
             List<Product> displayProducts = productDAO.findAll();
@@ -93,7 +93,7 @@ public class ProductController extends Controller {
         }
     }
 
-    //PUT
+    //POST
     public Result updateProduct(Http.Request request){
         JsonNode json = request.body().asJson();
 
@@ -113,7 +113,7 @@ public class ProductController extends Controller {
     }
 
 
-    //DELETE
+    //POST
     public Result deleteProduct(Http.Request request){
 
         JsonNode json = request.body().asJson();
