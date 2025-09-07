@@ -35,7 +35,7 @@ public class Product {
 	@JoinColumn(name = "category_id")
 	private Category category;
 
-	@OneToMany(cascade = CascadeType.ALL)
+	@OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
 	@JoinColumn(name = "product_id")
 	private List<Detail> detailList;
 

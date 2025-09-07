@@ -1,6 +1,7 @@
 package models;
 
 import jakarta.persistence.*;
+import org.hibernate.annotations.Cascade;
 
 @Entity
 @Table(name="details")

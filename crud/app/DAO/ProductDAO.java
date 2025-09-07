@@ -55,31 +55,12 @@ public class ProductDAO {
     /*Update the product*/
     public void update(Product product){
 
-        //test
-        System.out.println("Name: "+ product.getName());
-        System.out.println("Category: "+ product.getCategory().getCatName());
-        //end test
 
-        Product productToUpdate = null;
-        List<Product> checkProducts = this.findAll();
-        for(Product ch: checkProducts){
-            if((ch.getName().equals(product.getName())) && (ch.getCategory().getCatName().equals(product.getCategory().getCatName()))){
-                productToUpdate = ch;
-                //test
-                System.out.println("FOUND");
-                //end test
-                break;
-            }
-        }
+        //Product productToUpdate = em.find(Product.class, product.getId());
 
         em.getTransaction().begin(); //begin transaction
-        productToUpdate.setName(product.getName());
-        productToUpdate.setDescription(product.getDescription());
-        productToUpdate.setPrice(product.getPrice());
-        productToUpdate.setAddDate(product.getAddDate());
-        productToUpdate.setUpdateDate(Date.valueOf(LocalDate.now()));
-        productToUpdate.setCategory(product.getCategory());
-        productToUpdate.setDetailList(product.getDetailList());
+        product.setUpdateDate(Date.valueOf(LocalDate.now()));
+        em.merge(product);
         em.getTransaction().commit(); //end transaction
     }
 

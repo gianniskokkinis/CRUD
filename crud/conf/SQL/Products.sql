@@ -27,3 +27,7 @@ CREATE TABLE details (
         ON DELETE CASCADE
         ON UPDATE CASCADE
 );
+
+ 
+INSERT INTO categories (catName) VALUES ("Pizza");
+INSERT INTO categories (catName) VALUES ("Coffee");

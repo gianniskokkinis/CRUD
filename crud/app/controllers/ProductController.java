@@ -104,6 +104,10 @@ public class ProductController extends Controller {
 
         Product productToUpdate = Json.fromJson(json, Product.class);
 
+        if(productToUpdate.getId()==0){
+            return buildResponse(400, "failes", "Invalid ID: "+productToUpdate.getId(), null);
+        }
+
         try{
             productDAO.update(productToUpdate);
             return buildResponse(200, "success", "Product updated", productToUpdate);
