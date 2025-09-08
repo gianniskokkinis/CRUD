@@ -3,10 +3,12 @@ package DAO;
 
 import Modules.EntityManagerProvider;
 import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.node.ArrayNode;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
 import jakarta.transaction.Transactional;
 import models.Category;
+import models.Detail;
 import models.Product;
 import org.hibernate.dialect.Database;
 import play.api.Mode;
@@ -17,8 +19,13 @@ import javax.sql.DataSource;
 import java.sql.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.StreamSupport;
 
+import static com.fasterxml.jackson.databind.type.LogicalType.Collection;
 
 
 public class ProductDAO {
@@ -194,6 +201,8 @@ public class ProductDAO {
         }
 
 
+
+
         //filtered by updateDate
         if(json.has("updateDate")){
             String dateStr = json.get("updateDate").asText();
@@ -223,6 +232,73 @@ public class ProductDAO {
                 return filteredList;
             }
         }
+
+
+        //filter by detailList
+        if (json.has("detailList")){
+            ArrayNode detailList = (ArrayNode) json.get("detailList");
+            List<String> detailNames = StreamSupport.stream(detailList.spliterator(), false)
+                    .map(node -> node.get("detailName").asText())
+                    .collect(Collectors.toList());
+
+            for(String detName: detailNames){
+
+                if(filteredList.size()!=0){
+                    List<Product> fixList = new ArrayList<Product>();
+                    for(Product ch: filteredList){
+                        for(Detail det: ch.getDetailList()){
+                            if(det.getDetailName().equals(detName)){
+                                fixList.add(ch);
+                                break;
+                            }
+                        }
+                    }
+                    filteredList = fixList;
+
+                }else{
+                    List<Product> checkProducts = this.findAll();
+                    for(Product ch: checkProducts){
+                        for (Detail det: ch.getDetailList()){
+                            if(det.getDetailName().equals(detName)){
+                                filteredList.add(ch);
+                                break;
+                            }
+                        }
+                    }
+                }
+
+                if(filteredList.size()==0){
+                    return filteredList;
+                }
+
+
+            }
+
+        }
+
+
+        //sort here
+        if(json.has("sort")){
+            String type = json.get("sort").asText();
+
+            if (type.equals("price")){
+                Collections.sort(filteredList, Comparator.comparingDouble(Product::getPrice));
+            }else{
+                if(type.equals("name")){
+                    Collections.sort(filteredList, Comparator.comparing(Product::getName));
+                }else{
+                    if(type.equals("addDate")){
+                        Collections.sort(filteredList, Comparator.comparing(Product::getAddDate));
+                    }else{
+                        if(type.equals("updDate")){
+                            Collections.sort(filteredList, Comparator.comparing(Product::getUpdateDate));
+                        }
+                    }
+                }
+            }
+        }
+
+
 
 
 
