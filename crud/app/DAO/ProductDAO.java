@@ -43,6 +43,25 @@ public class ProductDAO {
 
 
 
+    private List<List<Product>> fixDefaultPages(List<Product> filteredList){
+        int n = 10;
+        int totalPage = (int) Math.ceil((double) filteredList.size() / n);
+
+        List<List<Product>> paginatedList = new ArrayList<>();
+
+        for (int i = 0; i < totalPage; i++) {
+            int fromIndex = i * n;
+            int toIndex = Math.min(fromIndex + n, filteredList.size());
+            paginatedList.add(filteredList.subList(fromIndex, toIndex));
+        }
+
+
+
+        return paginatedList;
+
+    }
+
+
     /*Save product to database*/
     public void save(Product product){
         em.getTransaction().begin(); //begin transaction
@@ -61,15 +80,60 @@ public class ProductDAO {
         return em.find(Product.class, id);
     }
 
-    public List<Product> findFilteredProducts(JsonNode json){
+    public List<List<Product>> findFilteredProducts(JsonNode json){
         List<Product> filteredList = new ArrayList<Product>();
 
         //filter by category
-        if(json.has("category")){
+        if(json.has("categoryList")){
+
+
+
+            //get all the categories to list
+            ArrayNode detailList = (ArrayNode) json.get("categoryList");
+            List<String> catNames = StreamSupport.stream(detailList.spliterator(), false)
+                    .map(node -> node.get("catName").asText())
+                    .collect(Collectors.toList());
+
+
+
+
+            //for every string
+            for(String chName: catNames){
+                if(filteredList.size()!=0){
+
+                    List<Product> fixList = new ArrayList<Product>();
+                    for(Product ch: filteredList){
+                        for(Category chCat: ch.getCategoryList()){
+                            if(chCat.getCatName().equals(chName)){
+                                fixList.add(ch);
+                                break;
+                            }
+                        }
+                    }
+                    filteredList = fixList;
+
+                }else{
+                    List<Product> checkProducts = this.findAll();
+                    for(Product ch: checkProducts){
+                        for(Category chCat: ch.getCategoryList()){
+                            if(chCat.getCatName().equals(chName)){
+                                filteredList.add(ch);
+                                break;
+                            }
+                        }
+                    }
+                }
+
+
+
+
+                if(filteredList.size()==0){
+                    return this.fixDefaultPages(filteredList);
+                }
+
+            }
 
         }
-
-
 
         //filtered by price
         if(json.has("price")){
@@ -95,7 +159,7 @@ public class ProductDAO {
 
 
             if(filteredList.size()==0){
-                return filteredList;
+                return this.fixDefaultPages(filteredList);
             }
         }
 
@@ -123,7 +187,7 @@ public class ProductDAO {
             }
 
             if(filteredList.size()==0){
-                return filteredList;
+                return this.fixDefaultPages(filteredList);
             }
         }
 
@@ -152,7 +216,7 @@ public class ProductDAO {
 
 
             if(filteredList.size()==0){
-                return filteredList;
+                return this.fixDefaultPages(filteredList);
             }
         }
 
@@ -183,7 +247,7 @@ public class ProductDAO {
 
 
             if(filteredList.size()==0){
-                return filteredList;
+                return this.fixDefaultPages(filteredList);
             }
         }
 
@@ -216,7 +280,7 @@ public class ProductDAO {
 
 
             if(filteredList.size()==0){
-                return filteredList;
+                return this.fixDefaultPages(filteredList);
             }
         }
 
@@ -254,8 +318,10 @@ public class ProductDAO {
                     }
                 }
 
+
+
                 if(filteredList.size()==0){
-                    return filteredList;
+                    return this.fixDefaultPages(filteredList);
                 }
 
 
@@ -286,19 +352,36 @@ public class ProductDAO {
         }
 
 
+        //filtered products per page
+        if(json.has("itemsPerPage")){
+            int n = json.get("itemsPerPage").asInt();
+            int totalPage = (int) Math.ceil((double) filteredList.size() / n);
+
+            //case not items found
+            if(totalPage==0){
+                return this.fixDefaultPages(filteredList);
+            }
+
+
+            //fix the pages
+
+            List<List<Product>> paginatedList = new ArrayList<>();
+
+            for (int i = 0; i < totalPage; i++) {
+                int fromIndex = i * n;
+                int toIndex = Math.min(fromIndex + n, filteredList.size());
+
+                List<Product> page = filteredList.subList(fromIndex, toIndex);
+                paginatedList.add(page);
+            }
+
+            return paginatedList;
+
+        }
 
 
 
-
-
-
-
-
-
-
-
-
-        return filteredList;
+        return this.fixDefaultPages(filteredList);
     }
 
 
@@ -324,6 +407,7 @@ public class ProductDAO {
         }
         em.getTransaction().commit(); // end transaction
     }
+
 
 
 

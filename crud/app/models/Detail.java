@@ -18,6 +18,7 @@ public class Detail {
     
     @ManyToOne
     @JoinColumn(name = "product_id")
+    @JsonIgnore
     private Product product;
 
     public int getId() {

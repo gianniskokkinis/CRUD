@@ -31,7 +31,7 @@ public class Product {
 	@Column(name="date_upd")
 	private Date updateDate;
 
-	@OneToMany(cascade = CascadeType.ALL)
+	@OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
 	@JoinColumn(name = "product_id")
 	private List<Category> categoryList;
 

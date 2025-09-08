@@ -105,7 +105,7 @@ public class ProductController extends Controller {
         }
 
         try {
-            List<Product> displayProducts = productDAO.findFilteredProducts(json);
+            List<List<Product>> displayProducts = productDAO.findFilteredProducts(json);
             return buildResponse(200, "success", "Product fetched successfully", displayProducts);
         }catch (Exception e){
             return buildResponse(400, "fails", e.getMessage(), null);
