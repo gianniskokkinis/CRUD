@@ -357,16 +357,25 @@ public class ProductDAO {
             int n = json.get("itemsPerPage").asInt();
             int totalPage = (int) Math.ceil((double) filteredList.size() / n);
 
-            //case not items found
+            List<List<Product>> paginatedList = new ArrayList<>();
+
+            //case not filter apply before
             if(totalPage==0){
-                return this.fixDefaultPages(filteredList);
+                List<Product> displayProducts = this.findAll();
+                totalPage = (int) Math.ceil((double) displayProducts.size() / n);
+                for (int i = 0; i < totalPage; i++) {
+                    int fromIndex = i * n;
+                    int toIndex = Math.min(fromIndex + n, displayProducts.size());
+
+                    List<Product> page = displayProducts.subList(fromIndex, toIndex);
+                    paginatedList.add(page);
+                }
+
+                return paginatedList;
             }
 
 
             //fix the pages
-
-            List<List<Product>> paginatedList = new ArrayList<>();
-
             for (int i = 0; i < totalPage; i++) {
                 int fromIndex = i * n;
                 int toIndex = Math.min(fromIndex + n, filteredList.size());
