@@ -17,10 +17,9 @@ public class Category {
     @Column(name = "catName")
     private String catName;
 
-    @OneToMany(cascade = CascadeType.ALL)
-    @JoinColumn(name="category_id")
-    @JsonIgnore
-    private List<Product> products;
+    @ManyToOne
+    @JoinColumn(name="product_id")
+    private Product product;
 
 
     public int getId() {
@@ -31,8 +30,8 @@ public class Category {
         return catName;
     }
 
-    public List<Product> getProducts() {
-        return products;
+    public Product getProduct() {
+        return product;
     }
 
     public void setId(int id) {
@@ -43,7 +42,7 @@ public class Category {
         this.catName = catName;
     }
 
-    public void setProducts(List<Product> products) {
-        this.products = products;
+    public void setProduct(Product product) {
+        this.product = product;
     }
 }

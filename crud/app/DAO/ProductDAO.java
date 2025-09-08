@@ -46,9 +46,7 @@ public class ProductDAO {
     /*Save product to database*/
     public void save(Product product){
         em.getTransaction().begin(); //begin transaction
-        Category category = em.find(Category.class, product.getCategory().getId());
-        product.setCategory(category);
-        em.merge(product); //save the entity Product to database
+        em.persist(product); //save the entity Product to database
         em.getTransaction().commit(); //end the transaction
     }
 
@@ -68,18 +66,7 @@ public class ProductDAO {
 
         //filter by category
         if(json.has("category")){
-            String category = json.get("category").asText();
-            List<Product> checkProducts = this.findAll();
-            for(Product ch: checkProducts){
-                if(ch.getCategory().getCatName().equals(category)){
-                    filteredList.add(ch);
-                }
-            }
 
-            //case nothing found
-            if (filteredList.size()==0){
-                return filteredList;
-            }
         }
 
 

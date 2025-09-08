@@ -31,9 +31,9 @@ public class Product {
 	@Column(name="date_upd")
 	private Date updateDate;
 
-	@ManyToOne
-	@JoinColumn(name = "category_id")
-	private Category category;
+	@OneToMany(cascade = CascadeType.ALL)
+	@JoinColumn(name = "product_id")
+	private List<Category> categoryList;
 
 	@OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
 	@JoinColumn(name = "product_id")
@@ -63,13 +63,15 @@ public class Product {
 		return updateDate;
 	}
 
+	public List<Category> getCategoryList() {
+		return categoryList;
+	}
+
 	public void setId(int id) {
 		this.id = id;
 	}
 
-	public Category getCategory() {
-		return category;
-	}
+
 
 	public List<Detail> getDetailList() {
 		return detailList;
@@ -95,8 +97,8 @@ public class Product {
 		this.updateDate = updateDate;
 	}
 
-	public void setCategory(Category category) {
-		this.category = category;
+	public void setCategoryList(List<Category> categoryList) {
+		this.categoryList = categoryList;
 	}
 
 	public void setDetailList(List<Detail> detailList) {
