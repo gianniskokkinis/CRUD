@@ -1,5 +1,6 @@
 package models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
 import java.util.List;
@@ -18,6 +19,7 @@ public class Category {
 
     @OneToMany(cascade = CascadeType.ALL)
     @JoinColumn(name="category_id")
+    @JsonIgnore
     private List<Product> products;
 
 

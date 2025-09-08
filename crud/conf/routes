@@ -14,3 +14,5 @@ POST    /products/get   controllers.ProductController.getAllProducts()
 POST    /products/update   controllers.ProductController.updateProduct(request: Request)
 POST    /products/delete   controllers.ProductController.deleteProduct(request: Request)
 
+#filters
+POST    /products/filter    controllers.ProductController.getFilteredProducts(request: Request)

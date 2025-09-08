@@ -73,13 +73,15 @@ public class ProductController extends Controller {
         try {
             //save to DB
             productDAO.save(product); //store to databae
+            Product saved = productDAO.findById(product.getId());
+            //return to database
+            return buildResponse(201, "success", "Product Created", saved);
         }catch (Exception e){
             return buildResponse(400, "fails", e.getMessage(), null);
         }
 
 
-        //return to database
-        return buildResponse(201, "success", "Product Created", product);
+
 
     }
 
@@ -91,6 +93,25 @@ public class ProductController extends Controller {
         }catch (Exception e){
             return buildResponse(400, "fails", e.getMessage(), null);
         }
+    }
+
+    public Result getFilteredProducts(Http.Request request){
+
+        JsonNode json = request.body().asJson(); //take the json body of request
+
+        //case not json
+        if(json == null){
+            return buildResponse(400, "fails", "Invalid JSON", null);
+        }
+
+        try {
+            List<Product> displayProducts = productDAO.findFilteredProducts(json);
+            return buildResponse(200, "success", "Product fetched successfully", displayProducts);
+        }catch (Exception e){
+            return buildResponse(400, "fails", e.getMessage(), null);
+        }
+
+
     }
 
     //POST
